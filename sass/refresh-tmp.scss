@@ -1,0 +1,27 @@
+@import "variables.scss";
+
+.footer {
+	background: $fondo;
+	color: $footer_font;
+	h5 {
+		font-size: 1.3em;
+	}
+	.fa {
+		padding-right: 10px;
+		font-size: 130%;
+	}
+}
+
+.container {
+	max-width: $widthcontainer;
+}
+
+.content-footer {
+	padding-top: 20px;
+}
+
+.colofon {
+	background: $principal;
+	text-align: right;
+	color: $footer_font;
+}

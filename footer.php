@@ -9,20 +9,28 @@
  * @since Twenty Twelve 1.0
  */
 ?>
-	</div><!-- #main .wrapper -->
-	<footer id="colophon" role="contentinfo">
-<div style="width:790px; height:80px; margin:0 auto; text-align:center;font-size:12px!important;">
-<span style="display:block;">Dirección: Estoril 200 oficina 937, Las Condes - Tabancura 1185 4to piso, Vitacura - Clinica Tabancura. </span>
-<span style="display:block;"><span class="fa fa-phone"></span> +56 222441458 - <span class="fa fa-envelope-o"></span> contacto@doctoranavarrete.cl</span>
-
-</div>
-
-		<div class="site-info" style="display:none;">
-			<?php do_action( 'twentytwelve_credits' ); ?>
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentytwelve' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentytwelve' ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentytwelve' ), 'WordPress' ); ?></a>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	</div><!-- #main .wrapper -->	
 </div><!-- #page -->
+<div class="footer">
+	<div class="container">
+		<div class="row content-footer">
+			<div class="one-third column">
+			 <h5><i class="fa fa-home"></i>Ubicación</h5>
+			</div>
+			<div class="one-third column">
+			2
+			</div>
+			<div class="one-third column">
+			3
+			</div>
+		</div>
+	</div>
+</div>
+<div class="colofon">
+	<div class="container">
+		Políticas de privacidad
+	</div>
+</div>
 
 <?php wp_footer(); ?>
 	<script>
