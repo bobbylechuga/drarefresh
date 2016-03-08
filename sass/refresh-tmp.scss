@@ -8,7 +8,14 @@
 	}
 	.fa {
 		padding-right: 10px;
-		font-size: 130%;
+		font-size: 140%;
+	}
+	li, ul {
+		font:inherit;
+		list-style: none;
+		.fa {
+			padding-right: 15px;
+		}
 	}
 }
 
@@ -24,4 +31,5 @@
 	background: $principal;
 	text-align: right;
 	color: $footer_font;
+	padding: 5px;
 }

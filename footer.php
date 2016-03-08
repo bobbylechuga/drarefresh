@@ -15,18 +15,32 @@
 	<div class="container">
 		<div class="row content-footer">
 			<div class="one-third column">
-			 <h5><i class="fa fa-home"></i>Ubicación</h5>
+			 	<h5><i class="fa fa-home"></i>Ubicación</h5>
+			 	<p>Estoril 200 oficina 937, Las Condes.</p>
+				<p>Tabancura 1185, 4° piso, Vitacura<br>
+				Clínica Tabancura.</p>
 			</div>
 			<div class="one-third column">
-			2
+				<h5>Procedimientos</h5>
+				<p>
+					Rinoplastía<br>
+					Septoplastia<br>
+					Apnea del sueño y Ronquidos<br>
+					Reducción de cornetes<br>
+					Rinosinusitis<br>
+				</p>
 			</div>
 			<div class="one-third column">
-			3
+				<h5>Contacto</h5>
+				<ul>
+					<li><span class="fa fa-envelope-o"></span>contacto@doctoranavarre.cl</li>
+					<li><span class="fa fa-phone"></span>&nbsp;+562 22441458</li>
+				</ul>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="colofon">
+<div class="row colofon">
 	<div class="container">
 		Políticas de privacidad
 	</div>
